@@ -78,7 +78,7 @@ Servo signal → GPIO 18, VCC → 5 V, GND → GND. Set `LOCK_BACKEND=raspberryp
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/face-recognition-door-lock.git
+git clone https://github.com/eskandersnoussi/face-recognition-door-lock.git
 cd face-recognition-door-lock
 python -m venv venv
 venv\Scripts\activate          # Linux/macOS: source venv/bin/activate
