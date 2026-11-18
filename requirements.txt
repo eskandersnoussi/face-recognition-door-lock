@@ -1,0 +1,8 @@
+opencv-contrib-python>=4.8,<5   # includes cv2.face (LBPH). Do not also install opencv-python.
+numpy
+flask>=2.2
+python-dotenv
+twilio>=8.0                  # SMS alerts (NOTIFIER=twilio)
+pyserial>=3.5                # Arduino servo (LOCK_BACKEND=arduino)
+# gpiozero                   # Raspberry Pi servo (LOCK_BACKEND=raspberrypi)
+pytest                       # tests

@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Personal data: face photos, trained model, visitor snapshots, logs
+dataset/
+trainer/
+captures/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
